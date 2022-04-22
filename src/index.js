@@ -10,11 +10,12 @@ import "./index.css";
 //import Validation from './Validation/validation.js';
 //import Func from './Functions/index.js';
 // import LifeCycle  from './LifeCycle/app.js'
-  import Hooks  from './Hooks/app.js'
+//  import Hooks  from './Hooks/app.js'
 //   import Bootstrap  from './React-Boostrap/app.js'
 // import Array from './Array-List-Object/main.js'
 // import ReactFragment from './ReactFragment/main.js'
 // import PureComponents from './PureComponents/main.js'
+import ControlledComponent from './Controlled-Component/main.js'
 function Hello() {
  return(
      
@@ -28,11 +29,12 @@ function Hello() {
   <div className = "LifeCyle">
   {/* <h1>Fragment!</h1>  */}
        {/* <LifeCycle/>  */}
-       <Hooks/>
+       {/* <Hooks/> */}
        {/* <Bootstrap/> */}
        {/* <Array/> */}
        {/* <ReactFragment/> */}
        {/* <PureComponents/> */}
+       <ControlledComponent/>
   </div>
   </Fragment>
  )
