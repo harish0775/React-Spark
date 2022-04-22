@@ -12,7 +12,7 @@ import React, { Fragment } from 'react';
 // import PureComponents from './PureComponents/main.js'
 //import ControlledComponent from './Component/main.js'
 function App() { 
-    return ( //
+    return ( //  retrun
 
         <Fragment>
             <h1>React Components!</h1>
