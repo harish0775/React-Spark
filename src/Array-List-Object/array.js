@@ -1,5 +1,5 @@
 import React from 'react'
-
+import User from './user.js'
  function App() {
   const Arrays = [
     {name :"Harish" ,email:"harish.nishad0775@gmail.com",phone :"9319130910"},
@@ -13,28 +13,21 @@ import React from 'react'
 
   return (
     <div>
-     
-   <table border = "1">
-     <tbody>
-     <tr>
-       <th>Name</th>
-       <th>Email</th>
-       <th>Phone</th>
-     </tr>
+      <tr>
+             <th>S.No</th>
+             <th>Name</th>
+             <th>email</th>
+             <th>phone</th>
+
+         </tr>
+    
+      
    {
    Arrays.map((data,i)=>
-   data.email == 'harish.nishad0775@gmail.com'?<tr key = {i}> 
-          <td>{i}</td>
-         <td>{data.name}</td>
-         <td>{data.email}</td>
-         <td>{data.phone}</td>
-          
-        
-        
-      </tr>:null
+   
+  <User data = {data} i = {i}/>
    )}
-   </tbody>
-   </table>
+  
     </div>
   )
 }
