@@ -18,6 +18,6 @@ const main = createRoot(rootElement);
 main.render(
   <StrictMode>
     <Hello />
-  </StrictMode>,   
+  </StrictMode>,   fgf
 );//Hello world
 //ReactDOM.render(< />, document.getElementById('root'));  
